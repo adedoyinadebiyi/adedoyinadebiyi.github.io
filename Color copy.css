@@ -1,0 +1,11 @@
+h1 { color: #cdd1e4; 
+     padding-left: 610px ;
+     font-family: 'BioRhyme', serif; }
+h2 { padding-left: 250px ; }
+#p {grid-column-start: : }
+img.pg{padding-left: 1300}
+#photos {
+	display: grid;
+	margin-left: -10px;
+	grid-template-columns: 34% 33% 33%;
+	grid-template-rows: 50% 50%;
