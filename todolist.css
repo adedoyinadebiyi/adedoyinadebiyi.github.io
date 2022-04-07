@@ -1,0 +1,53 @@
+
+     * {
+          box-sizing: border-box;
+     }
+
+body {
+     background-color: #fcf6f5ff;
+     color: #444;
+     font-family: "Nanum Myeongjo", sans-serif;
+     display: flex;
+     flex direction: column;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     overflow: hidden;
+}
+
+h1 {
+     font-size: 60px;
+}
+
+
+form { 
+ box-shadow: 0 4 px 10px rgba(0, 0, 0, 0.1);
+ max-width: 100%;
+ width: 400px;
+
+}
+
+.input {
+     border: none;
+     color: rgb(45, 47, 83);
+     font-size: 2rem;
+     padding: 1rem 2rem;
+     display: block;
+     width: 100%;
+}
+
+.todos {
+     background-color: #fff;
+     padding: 0;
+     margin: 0; 
+     list-style: none;
+
+}
+
+
+.todo li {
+     border-top: 1px solid #e5e5e5;
+     cursor: pointer;
+     font-size: 1.5rem;
+}
