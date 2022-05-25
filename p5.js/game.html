@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="game.css" rel="stylesheet" type="text/css"></link>
+ <script src="game.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+</body>
+</html>
+    <style>
+        .imgdiv{
+            position: relative;
+            display: inline-block;
+            width:150px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        
+        img{
+            width:120px;
+            height: 120px;
+            padding: 10px;;
+        }
+
+        .hide{
+            padding: 10px;
+            visibility: hidden;
+        }
+
+        .match, .showimg{
+            visibility: visible !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class ="jumbotron">Adedoyin Adebiyi Memory Game</h1>
+        
+        <button class="btn btn-success" onclick="start()">Start game</button><br><br>
+        <div id="score"></div>
+        <div id="boardgame"></div>
+    </div>
+    
+</body>
+</html>
